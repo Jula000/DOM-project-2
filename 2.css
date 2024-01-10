@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(28, 28, 35);
+}
+
+.btn {
+  padding: 50px 20px;
+  cursor: pointer;
+  border: 2px solid white;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  margin: 20px;
+  text-align: center;
+}
+
+.fuchsia {
+  background-color: fuchsia;
+}
+
+.hotpink {
+  background-color: hotpink;
+}
+
+.aquamarine {
+  background-color: aquamarine;
+}
+
+.green {
+  background-color: green;
+}
+
+.chocolate {
+  background-color: chocolate;
+}
+
+.darkblue {
+  background-color: darkblue;
+}
+
+.content-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
